@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#35858B"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:hint="Enter first value"
+        android:inputType="number"
+        android:textColor="#292323"
+        android:textSize="20sp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:hint="Enter second value"
+        android:inputType="numberSigned"
+        android:textColor="#292323"
+        android:textSize="20sp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Result="
+        android:textColor="#072227"
+        android:textColorHighlight="#68C5C5"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="#35858B"
+        android:fontFamily="@font/aclonica"
+        android:text="ADDITION  (+)"
+        android:textAlignment="center"
+        android:textColorHighlight="#9E4545"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="#35858B"
+        android:fontFamily="@font/aclonica"
+        android:text="SUBTRACTION  (-)"
+        android:textColorHighlight="#9E4545"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/mul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="#35858B"
+        android:fontFamily="@font/aclonica"
+        android:text="MULTILICATION  (*)"
+        android:textColorHighlight="#9E4545"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="#35858B"
+        android:fontFamily="@font/aclonica"
+        android:text="DIVISION  (/)"
+        android:textColorHighlight="#9E4545"
+        android:textSize="20sp" />
+</LinearLayout>
